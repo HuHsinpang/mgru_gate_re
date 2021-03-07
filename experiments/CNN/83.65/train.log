@@ -1,0 +1,253 @@
+2021-02-04 21:13:12,118:INFO: Loading the datasets...
+2021-02-04 21:21:28,010:INFO: - done.
+2021-02-04 21:21:29,582:INFO: Starting training for 100 epoch(s)
+2021-02-04 21:21:29,583:INFO: Epoch 1/100
+2021-02-04 21:21:36,097:INFO: - Train metrics: precison: 69.26; recall: 67.45; f1: 68.34; loss: 02.15
+2021-02-04 21:21:36,353:INFO: - Eval metrics: precison: 69.13; recall: 66.25; f1: 67.66
+2021-02-04 21:21:36,459:INFO: - Found new best F1
+2021-02-04 21:21:36,459:INFO: Epoch 2/100
+2021-02-04 21:21:42,932:INFO: - Train metrics: precison: 73.00; recall: 77.30; f1: 75.09; loss: 01.63
+2021-02-04 21:21:43,189:INFO: - Eval metrics: precison: 69.92; recall: 72.98; f1: 71.42
+2021-02-04 21:21:43,307:INFO: - Found new best F1
+2021-02-04 21:21:43,307:INFO: Epoch 3/100
+2021-02-04 21:21:49,750:INFO: - Train metrics: precison: 78.15; recall: 78.92; f1: 78.54; loss: 01.43
+2021-02-04 21:21:50,007:INFO: - Eval metrics: precison: 75.25; recall: 75.16; f1: 75.20
+2021-02-04 21:21:50,117:INFO: - Found new best F1
+2021-02-04 21:21:50,117:INFO: Epoch 4/100
+2021-02-04 21:21:56,565:INFO: - Train metrics: precison: 78.24; recall: 83.25; f1: 80.66; loss: 01.33
+2021-02-04 21:21:56,819:INFO: - Eval metrics: precison: 74.55; recall: 78.88; f1: 76.65
+2021-02-04 21:21:56,930:INFO: - Found new best F1
+2021-02-04 21:21:56,930:INFO: Epoch 5/100
+2021-02-04 21:22:03,405:INFO: - Train metrics: precison: 80.72; recall: 84.05; f1: 82.35; loss: 01.25
+2021-02-04 21:22:03,664:INFO: - Eval metrics: precison: 76.43; recall: 78.57; f1: 77.48
+2021-02-04 21:22:03,772:INFO: - Found new best F1
+2021-02-04 21:22:03,772:INFO: Epoch 6/100
+2021-02-04 21:22:10,244:INFO: - Train metrics: precison: 81.22; recall: 86.22; f1: 83.64; loss: 01.19
+2021-02-04 21:22:10,500:INFO: - Eval metrics: precison: 75.84; recall: 80.34; f1: 78.02
+2021-02-04 21:22:10,611:INFO: - Found new best F1
+2021-02-04 21:22:10,611:INFO: Epoch 7/100
+2021-02-04 21:22:17,054:INFO: - Train metrics: precison: 81.29; recall: 87.51; f1: 84.29; loss: 01.13
+2021-02-04 21:22:17,314:INFO: - Eval metrics: precison: 75.13; recall: 80.96; f1: 77.94
+2021-02-04 21:22:17,368:INFO: Epoch 8/100
+2021-02-04 21:22:23,843:INFO: - Train metrics: precison: 82.91; recall: 88.92; f1: 85.81; loss: 01.07
+2021-02-04 21:22:24,105:INFO: - Eval metrics: precison: 76.47; recall: 81.62; f1: 78.96
+2021-02-04 21:22:24,216:INFO: - Found new best F1
+2021-02-04 21:22:24,216:INFO: Epoch 9/100
+2021-02-04 21:22:30,679:INFO: - Train metrics: precison: 84.79; recall: 88.65; f1: 86.68; loss: 01.04
+2021-02-04 21:22:30,934:INFO: - Eval metrics: precison: 77.89; recall: 80.51; f1: 79.18
+2021-02-04 21:22:31,050:INFO: - Found new best F1
+2021-02-04 21:22:31,050:INFO: Epoch 10/100
+2021-02-04 21:22:37,531:INFO: - Train metrics: precison: 84.83; recall: 89.97; f1: 87.33; loss: 00.98
+2021-02-04 21:22:37,790:INFO: - Eval metrics: precison: 78.07; recall: 81.53; f1: 79.77
+2021-02-04 21:22:37,899:INFO: - Found new best F1
+2021-02-04 21:22:37,899:INFO: Epoch 11/100
+2021-02-04 21:22:44,386:INFO: - Train metrics: precison: 85.49; recall: 90.86; f1: 88.10; loss: 00.97
+2021-02-04 21:22:44,650:INFO: - Eval metrics: precison: 77.79; recall: 82.51; f1: 80.08
+2021-02-04 21:22:44,760:INFO: - Found new best F1
+2021-02-04 21:22:44,760:INFO: Epoch 12/100
+2021-02-04 21:22:51,252:INFO: - Train metrics: precison: 86.93; recall: 91.37; f1: 89.09; loss: 00.92
+2021-02-04 21:22:51,512:INFO: - Eval metrics: precison: 79.43; recall: 81.58; f1: 80.49
+2021-02-04 21:22:51,639:INFO: - Found new best F1
+2021-02-04 21:22:51,639:INFO: Epoch 13/100
+2021-02-04 21:22:58,101:INFO: - Train metrics: precison: 86.61; recall: 92.35; f1: 89.39; loss: 00.87
+2021-02-04 21:22:58,365:INFO: - Eval metrics: precison: 77.97; recall: 83.84; f1: 80.79
+2021-02-04 21:22:58,475:INFO: - Found new best F1
+2021-02-04 21:22:58,475:INFO: Epoch 14/100
+2021-02-04 21:23:04,980:INFO: - Train metrics: precison: 88.63; recall: 92.46; f1: 90.50; loss: 00.86
+2021-02-04 21:23:05,238:INFO: - Eval metrics: precison: 79.59; recall: 82.02; f1: 80.79
+2021-02-04 21:23:05,293:INFO: Epoch 15/100
+2021-02-04 21:23:11,762:INFO: - Train metrics: precison: 90.11; recall: 92.19; f1: 91.13; loss: 00.82
+2021-02-04 21:23:12,023:INFO: - Eval metrics: precison: 81.09; recall: 82.02; f1: 81.55
+2021-02-04 21:23:12,136:INFO: - Found new best F1
+2021-02-04 21:23:12,136:INFO: Epoch 16/100
+2021-02-04 21:23:18,623:INFO: - Train metrics: precison: 88.63; recall: 93.69; f1: 91.09; loss: 00.79
+2021-02-04 21:23:18,880:INFO: - Eval metrics: precison: 79.00; recall: 84.15; f1: 81.49
+2021-02-04 21:23:18,935:INFO: Epoch 17/100
+2021-02-04 21:23:25,447:INFO: - Train metrics: precison: 89.95; recall: 93.87; f1: 91.87; loss: 00.76
+2021-02-04 21:23:25,707:INFO: - Eval metrics: precison: 79.75; recall: 83.53; f1: 81.59
+2021-02-04 21:23:25,829:INFO: - Found new best F1
+2021-02-04 21:23:25,829:INFO: Epoch 18/100
+2021-02-04 21:23:32,381:INFO: - Train metrics: precison: 90.99; recall: 93.54; f1: 92.25; loss: 00.74
+2021-02-04 21:23:32,644:INFO: - Eval metrics: precison: 80.94; recall: 81.98; f1: 81.45
+2021-02-04 21:23:32,700:INFO: Epoch 19/100
+2021-02-04 21:23:39,235:INFO: - Train metrics: precison: 91.11; recall: 94.58; f1: 92.82; loss: 00.71
+2021-02-04 21:23:39,495:INFO: - Eval metrics: precison: 79.68; recall: 83.17; f1: 81.39
+2021-02-04 21:23:39,551:INFO: Epoch 20/100
+2021-02-04 21:23:46,024:INFO: - Train metrics: precison: 92.13; recall: 95.10; f1: 93.59; loss: 00.70
+2021-02-04 21:23:46,284:INFO: - Eval metrics: precison: 80.60; recall: 82.64; f1: 81.61
+2021-02-04 21:23:46,396:INFO: - Found new best F1
+2021-02-04 21:23:46,396:INFO: Epoch 21/100
+2021-02-04 21:23:52,873:INFO: - Train metrics: precison: 91.56; recall: 95.37; f1: 93.43; loss: 00.64
+2021-02-04 21:23:53,132:INFO: - Eval metrics: precison: 79.92; recall: 83.88; f1: 81.85
+2021-02-04 21:23:53,244:INFO: - Found new best F1
+2021-02-04 21:23:53,244:INFO: Epoch 22/100
+2021-02-04 21:23:59,728:INFO: - Train metrics: precison: 92.62; recall: 95.45; f1: 94.01; loss: 00.65
+2021-02-04 21:23:59,988:INFO: - Eval metrics: precison: 80.45; recall: 82.91; f1: 81.66
+2021-02-04 21:24:00,043:INFO: Epoch 23/100
+2021-02-04 21:24:06,514:INFO: - Train metrics: precison: 92.93; recall: 96.08; f1: 94.48; loss: 00.63
+2021-02-04 21:24:06,774:INFO: - Eval metrics: precison: 79.93; recall: 83.79; f1: 81.82
+2021-02-04 21:24:06,830:INFO: Epoch 24/100
+2021-02-04 21:24:13,320:INFO: - Train metrics: precison: 93.15; recall: 96.36; f1: 94.73; loss: 00.61
+2021-02-04 21:24:13,577:INFO: - Eval metrics: precison: 80.14; recall: 83.79; f1: 81.92
+2021-02-04 21:24:13,687:INFO: - Found new best F1
+2021-02-04 21:24:13,687:INFO: Epoch 25/100
+2021-02-04 21:24:20,144:INFO: - Train metrics: precison: 93.65; recall: 96.49; f1: 95.05; loss: 00.58
+2021-02-04 21:24:20,404:INFO: - Eval metrics: precison: 80.35; recall: 84.37; f1: 82.31
+2021-02-04 21:24:20,514:INFO: - Found new best F1
+2021-02-04 21:24:20,514:INFO: Epoch 26/100
+2021-02-04 21:24:26,970:INFO: - Train metrics: precison: 94.08; recall: 97.03; f1: 95.53; loss: 00.56
+2021-02-04 21:24:27,233:INFO: - Eval metrics: precison: 80.26; recall: 84.10; f1: 82.14
+2021-02-04 21:24:27,287:INFO: Epoch 27/100
+2021-02-04 21:24:33,768:INFO: - Train metrics: precison: 95.26; recall: 96.59; f1: 95.92; loss: 00.55
+2021-02-04 21:24:34,026:INFO: - Eval metrics: precison: 81.67; recall: 83.48; f1: 82.57
+2021-02-04 21:24:34,136:INFO: - Found new best F1
+2021-02-04 21:24:34,136:INFO: Epoch 28/100
+2021-02-04 21:24:40,643:INFO: - Train metrics: precison: 95.23; recall: 97.00; f1: 96.11; loss: 00.52
+2021-02-04 21:24:40,904:INFO: - Eval metrics: precison: 81.23; recall: 83.39; f1: 82.30
+2021-02-04 21:24:40,960:INFO: Epoch 29/100
+2021-02-04 21:24:47,458:INFO: - Train metrics: precison: 96.05; recall: 97.01; f1: 96.53; loss: 00.50
+2021-02-04 21:24:47,717:INFO: - Eval metrics: precison: 81.87; recall: 82.99; f1: 82.43
+2021-02-04 21:24:47,772:INFO: Epoch 30/100
+2021-02-04 21:24:54,260:INFO: - Train metrics: precison: 95.34; recall: 97.77; f1: 96.54; loss: 00.49
+2021-02-04 21:24:54,520:INFO: - Eval metrics: precison: 80.86; recall: 84.19; f1: 82.49
+2021-02-04 21:24:54,575:INFO: Epoch 31/100
+2021-02-04 21:25:01,062:INFO: - Train metrics: precison: 95.83; recall: 97.41; f1: 96.61; loss: 00.48
+2021-02-04 21:25:01,326:INFO: - Eval metrics: precison: 82.02; recall: 83.44; f1: 82.72
+2021-02-04 21:25:01,443:INFO: - Found new best F1
+2021-02-04 21:25:01,443:INFO: Epoch 32/100
+2021-02-04 21:25:07,952:INFO: - Train metrics: precison: 95.51; recall: 98.06; f1: 96.77; loss: 00.47
+2021-02-04 21:25:08,211:INFO: - Eval metrics: precison: 80.74; recall: 85.03; f1: 82.83
+2021-02-04 21:25:08,324:INFO: - Found new best F1
+2021-02-04 21:25:08,324:INFO: Epoch 33/100
+2021-02-04 21:25:14,814:INFO: - Train metrics: precison: 96.49; recall: 97.97; f1: 97.22; loss: 00.45
+2021-02-04 21:25:15,079:INFO: - Eval metrics: precison: 81.79; recall: 83.97; f1: 82.87
+2021-02-04 21:25:15,191:INFO: - Found new best F1
+2021-02-04 21:25:15,191:INFO: Epoch 34/100
+2021-02-04 21:25:21,682:INFO: - Train metrics: precison: 96.28; recall: 98.15; f1: 97.20; loss: 00.43
+2021-02-04 21:25:21,941:INFO: - Eval metrics: precison: 80.68; recall: 84.50; f1: 82.54
+2021-02-04 21:25:21,996:INFO: Epoch 35/100
+2021-02-04 21:25:28,486:INFO: - Train metrics: precison: 96.54; recall: 98.25; f1: 97.39; loss: 00.41
+2021-02-04 21:25:28,746:INFO: - Eval metrics: precison: 81.40; recall: 84.68; f1: 83.00
+2021-02-04 21:25:28,857:INFO: - Found new best F1
+2021-02-04 21:25:28,857:INFO: Epoch 36/100
+2021-02-04 21:25:35,330:INFO: - Train metrics: precison: 97.06; recall: 98.32; f1: 97.69; loss: 00.41
+2021-02-04 21:25:35,595:INFO: - Eval metrics: precison: 81.43; recall: 83.70; f1: 82.55
+2021-02-04 21:25:35,650:INFO: Epoch 37/100
+2021-02-04 21:25:42,113:INFO: - Train metrics: precison: 97.27; recall: 98.56; f1: 97.91; loss: 00.36
+2021-02-04 21:25:42,373:INFO: - Eval metrics: precison: 80.69; recall: 84.77; f1: 82.68
+2021-02-04 21:25:42,428:INFO: Epoch 38/100
+2021-02-04 21:25:48,911:INFO: - Train metrics: precison: 97.54; recall: 98.57; f1: 98.05; loss: 00.37
+2021-02-04 21:25:49,169:INFO: - Eval metrics: precison: 82.10; recall: 84.32; f1: 83.20
+2021-02-04 21:25:49,281:INFO: - Found new best F1
+2021-02-04 21:25:49,281:INFO: Epoch 39/100
+2021-02-04 21:25:55,751:INFO: - Train metrics: precison: 97.95; recall: 98.68; f1: 98.31; loss: 00.37
+2021-02-04 21:25:56,012:INFO: - Eval metrics: precison: 82.36; recall: 84.37; f1: 83.35
+2021-02-04 21:25:56,123:INFO: - Found new best F1
+2021-02-04 21:25:56,123:INFO: Epoch 40/100
+2021-02-04 21:26:02,569:INFO: - Train metrics: precison: 98.13; recall: 98.94; f1: 98.53; loss: 00.35
+2021-02-04 21:26:02,827:INFO: - Eval metrics: precison: 81.60; recall: 84.46; f1: 83.00
+2021-02-04 21:26:02,882:INFO: Epoch 41/100
+2021-02-04 21:26:09,336:INFO: - Train metrics: precison: 98.04; recall: 98.83; f1: 98.44; loss: 00.34
+2021-02-04 21:26:09,598:INFO: - Eval metrics: precison: 82.01; recall: 84.19; f1: 83.09
+2021-02-04 21:26:09,653:INFO: Epoch 42/100
+2021-02-04 21:26:16,116:INFO: - Train metrics: precison: 98.02; recall: 99.04; f1: 98.53; loss: 00.32
+2021-02-04 21:26:16,378:INFO: - Eval metrics: precison: 81.21; recall: 84.81; f1: 82.97
+2021-02-04 21:26:16,433:INFO: Epoch 43/100
+2021-02-04 21:26:22,843:INFO: - Train metrics: precison: 98.34; recall: 99.09; f1: 98.72; loss: 00.32
+2021-02-04 21:26:23,102:INFO: - Eval metrics: precison: 81.79; recall: 84.94; f1: 83.34
+2021-02-04 21:26:23,158:INFO: Epoch 44/100
+2021-02-04 21:26:29,613:INFO: - Train metrics: precison: 98.49; recall: 99.04; f1: 98.77; loss: 00.31
+2021-02-04 21:26:29,872:INFO: - Eval metrics: precison: 83.11; recall: 83.70; f1: 83.41
+2021-02-04 21:26:29,983:INFO: - Found new best F1
+2021-02-04 21:26:29,983:INFO: Epoch 45/100
+2021-02-04 21:26:36,424:INFO: - Train metrics: precison: 98.24; recall: 99.30; f1: 98.77; loss: 00.29
+2021-02-04 21:26:36,688:INFO: - Eval metrics: precison: 81.19; recall: 84.50; f1: 82.81
+2021-02-04 21:26:36,743:INFO: Epoch 46/100
+2021-02-04 21:26:43,156:INFO: - Train metrics: precison: 98.56; recall: 99.38; f1: 98.96; loss: 00.28
+2021-02-04 21:26:43,420:INFO: - Eval metrics: precison: 81.17; recall: 84.19; f1: 82.65
+2021-02-04 21:26:43,475:INFO: Epoch 47/100
+2021-02-04 21:26:49,928:INFO: - Train metrics: precison: 98.68; recall: 99.48; f1: 99.08; loss: 00.27
+2021-02-04 21:26:50,188:INFO: - Eval metrics: precison: 82.19; recall: 84.59; f1: 83.37
+2021-02-04 21:26:50,244:INFO: Epoch 48/100
+2021-02-04 21:26:56,678:INFO: - Train metrics: precison: 98.87; recall: 99.47; f1: 99.17; loss: 00.26
+2021-02-04 21:26:56,938:INFO: - Eval metrics: precison: 82.33; recall: 84.19; f1: 83.25
+2021-02-04 21:26:56,994:INFO: Epoch 49/100
+2021-02-04 21:27:03,405:INFO: - Train metrics: precison: 98.90; recall: 99.51; f1: 99.21; loss: 00.24
+2021-02-04 21:27:03,669:INFO: - Eval metrics: precison: 82.57; recall: 84.77; f1: 83.65
+2021-02-04 21:27:03,780:INFO: - Found new best F1
+2021-02-04 21:27:03,780:INFO: Epoch 50/100
+2021-02-04 21:27:10,214:INFO: - Train metrics: precison: 98.93; recall: 99.58; f1: 99.25; loss: 00.23
+2021-02-04 21:27:10,474:INFO: - Eval metrics: precison: 81.34; recall: 84.72; f1: 82.99
+2021-02-04 21:27:10,530:INFO: Epoch 51/100
+2021-02-04 21:27:16,983:INFO: - Train metrics: precison: 99.12; recall: 99.65; f1: 99.39; loss: 00.23
+2021-02-04 21:27:17,242:INFO: - Eval metrics: precison: 82.06; recall: 84.06; f1: 83.05
+2021-02-04 21:27:17,298:INFO: Epoch 52/100
+2021-02-04 21:27:23,728:INFO: - Train metrics: precison: 99.15; recall: 99.61; f1: 99.38; loss: 00.22
+2021-02-04 21:27:23,987:INFO: - Eval metrics: precison: 82.20; recall: 84.46; f1: 83.31
+2021-02-04 21:27:24,041:INFO: Epoch 53/100
+2021-02-04 21:27:30,463:INFO: - Train metrics: precison: 99.35; recall: 99.73; f1: 99.54; loss: 00.21
+2021-02-04 21:27:30,724:INFO: - Eval metrics: precison: 82.51; recall: 84.41; f1: 83.45
+2021-02-04 21:27:30,779:INFO: Epoch 54/100
+2021-02-04 21:27:37,218:INFO: - Train metrics: precison: 99.35; recall: 99.77; f1: 99.56; loss: 00.21
+2021-02-04 21:27:37,476:INFO: - Eval metrics: precison: 82.37; recall: 83.79; f1: 83.07
+2021-02-04 21:27:37,531:INFO: Epoch 55/100
+2021-02-04 21:27:43,966:INFO: - Train metrics: precison: 99.44; recall: 99.83; f1: 99.64; loss: 00.19
+2021-02-04 21:27:44,224:INFO: - Eval metrics: precison: 81.73; recall: 85.61; f1: 83.63
+2021-02-04 21:27:44,279:INFO: Epoch 56/100
+2021-02-04 21:27:50,707:INFO: - Train metrics: precison: 99.52; recall: 99.83; f1: 99.67; loss: 00.19
+2021-02-04 21:27:50,966:INFO: - Eval metrics: precison: 81.52; recall: 84.41; f1: 82.94
+2021-02-04 21:27:51,022:INFO: Epoch 57/100
+2021-02-04 21:27:57,431:INFO: - Train metrics: precison: 99.59; recall: 99.88; f1: 99.73; loss: 00.19
+2021-02-04 21:27:57,693:INFO: - Eval metrics: precison: 81.78; recall: 84.85; f1: 83.29
+2021-02-04 21:27:57,748:INFO: Epoch 58/100
+2021-02-04 21:28:04,168:INFO: - Train metrics: precison: 99.61; recall: 99.86; f1: 99.73; loss: 00.19
+2021-02-04 21:28:04,432:INFO: - Eval metrics: precison: 81.72; recall: 84.54; f1: 83.11
+2021-02-04 21:28:04,486:INFO: Epoch 59/100
+2021-02-04 21:28:10,920:INFO: - Train metrics: precison: 99.68; recall: 99.91; f1: 99.80; loss: 00.17
+2021-02-04 21:28:11,181:INFO: - Eval metrics: precison: 82.15; recall: 84.59; f1: 83.35
+2021-02-04 21:28:11,237:INFO: Epoch 60/100
+2021-02-04 21:28:17,678:INFO: - Train metrics: precison: 99.65; recall: 99.85; f1: 99.75; loss: 00.17
+2021-02-04 21:28:17,939:INFO: - Eval metrics: precison: 82.35; recall: 84.10; f1: 83.22
+2021-02-04 21:28:17,995:INFO: Epoch 61/100
+2021-02-04 21:28:24,442:INFO: - Train metrics: precison: 99.70; recall: 99.89; f1: 99.80; loss: 00.16
+2021-02-04 21:28:24,706:INFO: - Eval metrics: precison: 82.67; recall: 82.60; f1: 82.63
+2021-02-04 21:28:24,762:INFO: Epoch 62/100
+2021-02-04 21:28:31,190:INFO: - Train metrics: precison: 99.79; recall: 99.89; f1: 99.84; loss: 00.15
+2021-02-04 21:28:31,451:INFO: - Eval metrics: precison: 82.31; recall: 83.88; f1: 83.09
+2021-02-04 21:28:31,507:INFO: Epoch 63/100
+2021-02-04 21:28:37,955:INFO: - Train metrics: precison: 99.70; recall: 99.91; f1: 99.80; loss: 00.15
+2021-02-04 21:28:38,218:INFO: - Eval metrics: precison: 81.65; recall: 84.37; f1: 82.99
+2021-02-04 21:28:38,273:INFO: Epoch 64/100
+2021-02-04 21:28:44,692:INFO: - Train metrics: precison: 99.68; recall: 99.89; f1: 99.79; loss: 00.15
+2021-02-04 21:28:44,951:INFO: - Eval metrics: precison: 80.99; recall: 84.32; f1: 82.62
+2021-02-04 21:28:45,007:INFO: Epoch 65/100
+2021-02-04 21:28:51,431:INFO: - Train metrics: precison: 99.76; recall: 99.89; f1: 99.83; loss: 00.15
+2021-02-04 21:28:51,695:INFO: - Eval metrics: precison: 81.66; recall: 82.64; f1: 82.15
+2021-02-04 21:28:51,752:INFO: Epoch 66/100
+2021-02-04 21:28:58,187:INFO: - Train metrics: precison: 99.70; recall: 99.94; f1: 99.82; loss: 00.14
+2021-02-04 21:28:58,452:INFO: - Eval metrics: precison: 80.94; recall: 84.63; f1: 82.75
+2021-02-04 21:28:58,508:INFO: Epoch 67/100
+2021-02-04 21:29:04,937:INFO: - Train metrics: precison: 99.76; recall: 99.89; f1: 99.83; loss: 00.13
+2021-02-04 21:29:05,198:INFO: - Eval metrics: precison: 82.24; recall: 82.64; f1: 82.44
+2021-02-04 21:29:05,260:INFO: Epoch 68/100
+2021-02-04 21:29:11,693:INFO: - Train metrics: precison: 99.79; recall: 99.92; f1: 99.86; loss: 00.12
+2021-02-04 21:29:11,953:INFO: - Eval metrics: precison: 81.24; recall: 83.79; f1: 82.49
+2021-02-04 21:29:12,009:INFO: Epoch 69/100
+2021-02-04 21:29:18,458:INFO: - Train metrics: precison: 99.85; recall: 99.95; f1: 99.90; loss: 00.13
+2021-02-04 21:29:18,721:INFO: - Eval metrics: precison: 81.80; recall: 83.61; f1: 82.70
+2021-02-04 21:29:18,777:INFO: Epoch 70/100
+2021-02-04 21:29:25,208:INFO: - Train metrics: precison: 99.85; recall: 99.94; f1: 99.89; loss: 00.11
+2021-02-04 21:29:25,467:INFO: - Eval metrics: precison: 81.34; recall: 83.39; f1: 82.35
+2021-02-04 21:29:25,523:INFO: Epoch 71/100
+2021-02-04 21:29:31,938:INFO: - Train metrics: precison: 99.89; recall: 99.97; f1: 99.93; loss: 00.11
+2021-02-04 21:29:32,197:INFO: - Eval metrics: precison: 81.94; recall: 83.61; f1: 82.77
+2021-02-04 21:29:32,252:INFO: Epoch 72/100
+2021-02-04 21:29:38,671:INFO: - Train metrics: precison: 99.92; recall: 99.97; f1: 99.95; loss: 00.11
+2021-02-04 21:29:38,931:INFO: - Eval metrics: precison: 81.42; recall: 83.44; f1: 82.41
+2021-02-04 21:29:38,988:INFO: Epoch 73/100
+2021-02-04 21:29:45,410:INFO: - Train metrics: precison: 99.88; recall: 99.95; f1: 99.92; loss: 00.10
+2021-02-04 21:29:45,674:INFO: - Eval metrics: precison: 81.21; recall: 84.01; f1: 82.59
+2021-02-04 21:29:45,730:INFO: Epoch 74/100
+2021-02-04 21:29:52,171:INFO: - Train metrics: precison: 99.95; recall: 99.97; f1: 99.96; loss: 00.10
+2021-02-04 21:29:52,434:INFO: - Eval metrics: precison: 81.72; recall: 83.75; f1: 82.72
+2021-02-04 21:29:52,490:INFO: best val f1: 83.65

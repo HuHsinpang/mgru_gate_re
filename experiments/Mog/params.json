@@ -1,0 +1,23 @@
+{
+    "seed":5783,
+    "max_len": 98,
+    "pos_dis_limit": 50,
+
+    "use_pi": 1,
+    "use_cnn": 0,
+
+    "word_emb_dim": 300,
+    "pos_emb_dim": 10,
+    "hidden_dim": 160,
+
+    "optim_method": "adadelta",
+    "learning_rate": 1.25,
+    "weight_decay": 2e-4,
+
+    "batch_size": 100,
+    "epoch_num": 100,
+
+    "min_epoch_num": 20,
+    "patience": 0.02,
+    "patience_num": 65
+}
