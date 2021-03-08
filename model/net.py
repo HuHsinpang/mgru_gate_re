@@ -763,7 +763,8 @@ class Mog(nn.Module):
         self.loss = nn.CrossEntropyLoss()
 
     def attention(self, H):
-        M = torch.tanh(H)
+        # M = torch.tanh(H)
+        M = F.gelu(H)
         # (batch_size, seq_len, hidden) * (batch_size, hidden, 1)
         a = torch.bmm(M, self.att_weight.repeat(self.batch_size, 1, 1)).squeeze()
         a = a.masked_fill(a.bool().eq(0), float('-inf'))
@@ -777,7 +778,8 @@ class Mog(nn.Module):
         # entity_weight = entities.sum(dim=-1).squeeze().masked_fill(entity_masks.eq(0), float('-inf'))
         entity_weight = F.softmax(entity_weight, dim=-1)
         entity = torch.bmm(entity_weight.unsqueeze(1), entities)     # (b,1,e_len)@(b,e_len,hidden)->(b,1,hidden)
-        p = torch.tanh(entity).transpose(1, 2)
+        # p = torch.tanh(entity).transpose(1, 2)
+        p = F.gelu(entity).transpose(1, 2)
 
         words = torch.bmm(encoded_sents, p).squeeze().masked_fill(slice_masks.eq(0), float('-inf'))     # (batch,len,hidden)@(batch,hidden,1)
         word_weight = F.softmax(words, dim=-1)
@@ -795,7 +797,8 @@ class Mog(nn.Module):
     #         masked_fill(entity_masks.eq(0), float('-inf'))  # out:(b,e_len)
     #     entity_weight = F.softmax(entity_weight, dim=-1)
     #     entity = torch.bmm(entity_weight.unsqueeze(1), entities)  # (b,1,e_len)@(b,e_len,hidden)->(b,1,hidden)
-    #     p = torch.tanh(entity).transpose(1, 2)
+    #     # p = torch.tanh(entity).transpose(1, 2)
+    #     p = F.gelu(entity).transpose(1, 2)
     
     #     words = torch.bmm(encoded_sents, p).squeeze().masked_fill(slice_masks.eq(0),
     #                                                               float('-inf'))  # (batch,len,hidden)@(batch,hidden,1)
@@ -837,7 +840,8 @@ class Mog(nn.Module):
         encoded_sents = self.gate_attention(
             encoded_slices, encoded_entities, batch_slice_masks, batch_entity_masks, batch_slice_lens, self.beta)
 
-        att_out = torch.tanh(self.attention(encoded_sents)).squeeze()
+        # att_out = torch.tanh(self.attention(encoded_sents)).squeeze()
+        att_out = F.gelu(self.attention(encoded_sents)).squeeze()
         out = self.dense(self.dropout_att(att_out))  # 经过一个全连接矩阵 W*h + b
         return out
 
