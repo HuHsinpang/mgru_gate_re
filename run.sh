@@ -50,12 +50,12 @@
 
 
 # 截断策略
-python train.py --beta 1    # 84.79
-python train.py --beta 2    # 84.51
-python train.py --beta 3    # 84.45
-python train.py --beta 4    # 84.13
-python train.py --beta 5    # 83.47
-python train.py --beta 6    # 84.34
-python train.py --beta 7    # 83.63
-python train.py --beta 8    # 84.11
+python train.py --beta 1
+python train.py --beta 2
+python train.py --beta 3
+python train.py --beta 4
+python train.py --beta 5
+python train.py --beta 6
+python train.py --beta 7
+python train.py --beta 8
 
